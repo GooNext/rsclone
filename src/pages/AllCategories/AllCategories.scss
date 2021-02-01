@@ -1,0 +1,15 @@
+.allCategories {
+    display: flex;
+    flex-wrap: wrap;
+    &__popover {
+        &--item {
+            padding: 3px;
+            cursor: pointer;
+            &:hover {
+                transition: all 0.1s ease-in-out;
+                transform: scale(1.02);
+                background: rgb(248, 248, 248);
+            }
+        }
+    }
+}
