@@ -16,7 +16,7 @@ interface SubMenuType {
 }
 
 const RenderMenuItems = observer(({ showModal }: any) => {
-  const [state] = useState({ collapsed: false });
+  const [state] = useState({ collapsed: true });
   const { t } = useTranslation();
   // const [taskState, setTaskState] = useState(false);
   return (

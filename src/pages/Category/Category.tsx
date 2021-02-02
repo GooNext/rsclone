@@ -151,7 +151,7 @@ const Category = ({ match }: any) => {
           <Breadcrumb.Item>{categoryInfo.title}</Breadcrumb.Item>
         </Breadcrumb>
         <PageHeader className="category__header df justify-between" title={`All boards for ${categoryInfo.title}`}>
-          <div className="df">
+          <div className="df flex-wrap">
             <div style={{ margin: '0 3px' }} className="category__header--board">
               <Button onClick={() => setNewBoard(true)}>{t('Add new board')}</Button>
               <AddNewBoard
