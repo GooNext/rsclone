@@ -6,6 +6,10 @@ It's RS School Final Project.
 
 ### https://intonext.netlify.app/
 
+## Backend
+
+### https://github.com/GooNext/TodoList-backend
+
 ## :gear: Setup
 
 ```bash
