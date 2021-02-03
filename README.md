@@ -1,7 +1,4 @@
-# inToNext
-Link on deploy - https://intonext.netlify.app/
-
-# RS Clone - Word game 'Balda'
+# RS Clone - inToNext
 
 It's RS School Final Project.
 
