@@ -1,0 +1,168 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.category {
+  &__header {
+    padding-left: 0 !important;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.ant-menu-inline-collapsed {
+  width: 100%!important;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.ant-menu-item-only-child {
+  padding: 0 10px!important;
+}
+
+@media (min-width: 0px) and (max-width: 400px) {
+  .ant-card {
+    width: 150px!important;
+  }
+  .header__container--auth {
+    margin-left: 5px!important;
+  }
+  .category__header--board {
+    margin-bottom: 15px!important;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 650px) {
+  .ant-card {
+    width: 200px!important;
+  }
+  .category__header--board {
+    margin-bottom: 15px!important;
+  }
+}
+
+.header {
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-right: 20px;
+    &--auth {
+      margin-left: 40px;
+    }
+    &--right {
+      flex-wrap: wrap;
+    }
+    &--locales {
+      display: flex;
+      & div {
+        margin: 0 10px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.ant-layout-header {
+  height: auto!important;
+}
+
+.locale {
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  &__ru {
+    background: url("../img/ruflag.png");
+    background-size: cover;
+  }
+  &__zh {
+    background: url("../img/chinaflag.jpg");
+    background-size: cover;
+  }
+  &__en {
+    background: url("../img/enflag.jpeg");
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.ant-row {
+  min-height: 100vh;
+}
+
+.df {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+  word-wrap: break-word;
+}
+
+.m4 {
+  margin: 7px 0;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.ant-menu-item-group-title {
+  width: 250px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
